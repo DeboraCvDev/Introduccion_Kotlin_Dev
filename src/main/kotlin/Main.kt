@@ -140,12 +140,11 @@ val clientes:MutableSet<Int> = mutableSetOf(1234,5678,4040,8970)
     var inversiones: MutableMap<String, Float> = mutableMapOf()
     inversiones.put("Coca-Cola", 50f)
     println(inversiones)*/
-    //BUCLE WHILE
+    /* //BUCLE WHILE
     var inversiones = mutableMapOf<String, Float>()
     val bolsa = mutableListOf("Coca-Cola", "Adidas", "Amazon", "Pfizer", "Nvidia", "Adobe")
     //35. Null Safety
     var empresa: String? = null
-
     mostrar_Saldo()
     var cantidad_a_invertir = 90f
     var index = 0
@@ -160,9 +159,8 @@ val clientes:MutableSet<Int> = mutableSetOf(1234,5678,4040,8970)
             break
         }
         index++
-    }
+    }*/
 }
-
 
 fun mostrar_Saldo() {
     println("Tienes $saldo $moneda")
